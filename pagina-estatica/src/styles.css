@@ -25,6 +25,10 @@ body {
 /* MainContent */
 .MainContent {
     background: #282D35;
+    background-image: url("./images/react-background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px;
     color: rgba(255, 255, 255, 1);
     padding: 20px 40px;
 }
@@ -42,6 +46,9 @@ li {
 @media (max-width: 480px) {
     .navbar {
         flex-direction: column;
+    }
+    .MainContent {
+        background-image: none;
     }
     ul {
         margin-left: 0px;
